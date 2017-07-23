@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "description": "",
+  "main": "",
+  "license": "",
+  "keywords": [],
+  "homepage": "",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.7",
+    "jquery": "~1.12.4",
+    "bootstrap-sass": "~3.3.7",
+    "font-awesome": "^4.6.3"
+  },
+  "resolutions": {
+    "bootstrap": "~3.3.6",
+    "jquery": "~1.12.4"
+  }
+}

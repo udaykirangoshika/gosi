@@ -1,0 +1,16 @@
+# Before Script
+before_script:
+  - html5validator --root . --blacklist vendors
+
+# Services
+services:
+  - mysql:latest
+
+# testing deployment
+pages:
+  stage: deploy
+  script:
+  - echo 'Nothing to do...'
+  artifacts:
+    paths:
+    - public
